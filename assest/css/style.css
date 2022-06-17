@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Harmattan&display=swap');
+*{
+    font-family: 'El Messiri', sans-serif;
+ 
+}
+:root{
+    --main-color:#57a2e4 ;
+}
+a,a::after{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* Start NavBar */
+.bg-dark {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important; */
+    background-color: var(--main-color)!important;
+}
+body{
+    background-color: #eaeaea;
+   
+}
+/* End NavBar */
+/* Srart Post */
+.content{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.content hr{
+    width:78%;
+    margin-right: 5px;
+}
+.post{
+    width:80%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.post .image-post{
+width: 95%;
+margin-bottom: 10px;
+}
+.post .image-post img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post .post-title{
+    margin-top: 10px;
+    padding: 5px;
+}
+.post .post-title a h4{
+    color: rgba(0, 0, 0, 0.753);
+}
+.post .post-detalis{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.post .post-detalis span{
+    margin-left: 20px;
+    color: #7666 ;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.post .post-detalis span i{
+    margin-left: 5px;
+}
+.post .post-detalis span:hover{
+    color:var(--main-color);
+}
+.post .post-detalis .contents{
+line-height: 32px;
+color: #666;
+}
+.coustom-but{
+    border: none;
+    outline: none;
+}
+.coustom-but:hover{
+    background-color: var(--main-color);
+    color: #000;
+}
+
+/* End Post */
+/* Start Categoray */
+.categoray{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #666;
+    margin-bottom: 10px;
+}
+.categoray h4{
+    color: #666;
+}
+.categoray .cate-list{
+    width: 100%;
+    padding: 5px;
+}
+.categoray .cate-list ul{
+    padding: 0;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.categoray .cate-list ul li{
+    padding: 2px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+
+} 
+.categoray .cate-list ul li:last-child{
+    border-bottom: none;
+}
+.categoray .cate-list ul li a{
+    color: var(--main-color);
+    font-size: 18px;
+    transition: all .3s ease-out;
+}
+.categoray .cate-list ul li a:hover{
+    color: #000;
+}
+.categoray .cate-list ul li a span i{
+    margin: 5px;
+    /* color: rgb(200, 193, 193); */
+}
+/* End Categoray */
+/* Start New_Post */
+ .new-post{
+    background-color: #fff;
+    border-bottom: 1px solid #EAEAEA;
+    padding:20px 10px ;
+    display: block;
+    border: 1px solid #666;
+
+ }
+ .new-post ul{
+    margin-top: 20px;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .new-post ul li{
+    border-bottom: px solid var(--main-color);
+    margin-bottom: 10px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.new-post ul li a{
+    color: #000;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+   margin: 5px;
+   border-bottom: 1px solid var(--main-color);
+}
+.new-post ul li a:last-child{
+    border-bottom: none;
+}
+.new-post ul li a span{
+    margin: 10px;
+}
+.new-post ul li a span img{
+    width: 100%;
+     /* height:60px */
+}
+.new-post ul li a:hover{
+    color: var(--main-color);
+    transition: all 0.3s ease-in-out;
+}
+/* End New_Post */
+footer{
+    background-color: #fff;
+    border-top: 1px solid #EAEAEA;
+    text-align: center;
+    padding: 10px 0;
+}
